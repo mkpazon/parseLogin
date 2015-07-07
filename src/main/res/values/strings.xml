@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat</string>
+    
+    
+    
+    
+    <string name="logging_in">Logging in</string>
+    <string name="failed_to_log_in_please_try_again_later">Failed to log in. Please try again later</string>
+    
+    <string name="successfully_logged_in">Successfully logged in</string>
+    <string name="login_success_">Login success.</string>
+    
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="username">Username</string>
+    
+    <string name="password">Password</string>
+    
+    <string name="sign_in">Sign In</string>
+    
+    <string name="forgot_password">Forgot Password\?</string>
+    
+    <string name="error">Error</string>
+    
+    <string name="username_and_password_can_not_be_empty">Username and password can not be empty</string>
+
+    
+    <string name="please_enter_your_email_address_to_reset_your_password">Please enter your email address to reset your password</string>
+    <string name="email_case_sensitive_">Email (Case sensitive)</string>
+    
+    <string name="failed_to_reset_password_">Failed to reset password.</string>
+    <string name="instructions_on_how_to_reset_your_password_has_been_sent_to_your_email_">Instructions on how to reset your password has been sent to your email.</string>
+
+
+
+    <string name="facebook">Facebook</string>
+    <string name="login_with_google_plus">Login with Google+</string>
+    <string name="twitter">Twitter</string>
+    <string name="app_logo">App Logo</string>
+    <string name="sign_in_failed">"Sign in failed. Please try again."</string>
+    <string name="email">Email</string>
+    <string name="sign_up_or_login_with">Sign up or Login with</string>
+
+</resources>

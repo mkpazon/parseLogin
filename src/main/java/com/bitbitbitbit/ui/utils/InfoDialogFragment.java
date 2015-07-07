@@ -7,11 +7,10 @@ import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-import com.bitbitbitbit.thefreebees.R;
+import com.bitbitbitbit.login.R;
+
 
 public class InfoDialogFragment extends DialogFragment {
-
-    public static final int BUTTON_POSITIVE = DialogInterface.BUTTON_POSITIVE;
     private static final String ARGUMENT_TITLE = "title";
     private static final String ARGUMENT_MESSAGE = "message";
 
@@ -43,10 +42,5 @@ public class InfoDialogFragment extends DialogFragment {
         builder.setTitle(title).setMessage(message).setPositiveButton(getActivity().getString(R.string.ok),
                 onClickListener);
         return builder.create();
-    }
-
-    //TODO remove?s
-    public interface InfoFragmentDialogOnClickListener {
-        void onClick();
     }
 }

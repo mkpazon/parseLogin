@@ -1,0 +1,86 @@
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}">
+    <!-- TODO use application logo-->
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:contentDescription="@string/app_logo"
+        android:scaleType="center"/>
+    <!-- TODO use themes-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="@string/sign_up_or_login_with"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"/>
+
+
+        <com.bitbitbitbit.ui.utils.DarkenButton
+            android:id="@+id/button_facebookLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_facebook_bg"
+            android:drawableLeft="@drawable/com_parse_ui_facebook_login_logo"
+            android:drawableStart="@drawable/com_parse_ui_facebook_login_logo"
+            android:onClick="onClickFacebookLogin"
+            android:padding="10dp"
+            android:text="@string/facebook"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.bitbitbitbit.ui.utils.DarkenButton
+                android:id="@+id/button_twitterLogin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_twitter_bg"
+                android:drawableLeft="@drawable/com_parse_ui_twitter_login_logo"
+                android:drawableStart="@drawable/com_parse_ui_twitter_login_logo"
+                android:onClick="onClickTwitterLogin"
+                android:padding="10dp"
+
+                android:text="@string/twitter"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="onClickParseLogin"
+                android:text="@string/email"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
